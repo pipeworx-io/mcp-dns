@@ -1,14 +1,13 @@
-# @pipeworx/mcp-dns
+# mcp-dns
 
-MCP server for DNS lookups — query records, reverse lookups, and bulk DNS resolution.
+DNS MCP — DNS and network lookup tools
+
+Part of the [Pipeworx](https://pipeworx.io) open MCP gateway.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `dns_lookup` | Look up DNS records for a domain (A, AAAA, MX, NS, TXT, CNAME, SOA) |
-| `dns_lookup_all` | Query multiple record types at once and return grouped results |
-| `reverse_dns` | Reverse DNS lookup for an IPv4 address (PTR record) |
 
 ## Quick Start
 
@@ -24,7 +23,7 @@ Add to your MCP client config:
 }
 ```
 
-Or run via CLI:
+Or use the CLI:
 
 ```bash
 npx pipeworx use dns

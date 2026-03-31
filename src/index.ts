@@ -1,12 +1,3 @@
-/**
- * DNS MCP — DNS and network lookup tools
- *
- * Tools:
- * - dns_lookup: query DNS records for a domain using Google DNS-over-HTTPS
- * - dns_lookup_all: query multiple record types (A, AAAA, MX, NS, TXT, CNAME) at once
- * - reverse_dns: look up the PTR record for an IP address
- */
-
 interface McpToolDefinition {
   name: string;
   description: string;
@@ -21,6 +12,16 @@ interface McpToolExport {
   tools: McpToolDefinition[];
   callTool: (name: string, args: Record<string, unknown>) => Promise<unknown>;
 }
+
+/**
+ * DNS MCP — DNS and network lookup tools
+ *
+ * Tools:
+ * - dns_lookup: query DNS records for a domain using Google DNS-over-HTTPS
+ * - dns_lookup_all: query multiple record types (A, AAAA, MX, NS, TXT, CNAME) at once
+ * - reverse_dns: look up the PTR record for an IP address
+ */
+
 
 const GOOGLE_DOH = 'https://dns.google/resolve';
 
