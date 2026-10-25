@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-dns",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "DNS MCP — DNS and network lookup tools",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-b286600d029bfa25a1aced04f00f8165ec5d0bbf892daf0391c2298771e47aaf",
-    "sourceCommit": "5749f83c0ea115fab4c0c0ef04b66b05f2507d67"
+    "sourceHash": "v1-f5fc7f0ca4df0d983745c7a9629f80b7090a4efa15c089e9c64c259317c8b641",
+    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
   }
 }
